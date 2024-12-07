@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo arreglo-sastreria a domicilio</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sastrería y Arreglo de Ropa</h1>
+        <nav>
+            <ul>
+                <li><a href="#Nosotros">Nosotros</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <div class="container">
+        <section class="card" id="Nosotros">
+            <h2>Conocemos el Negocio</h2>
+            <p>Somos una agencia de arreglos de ropa profesionales que está innovando este negocio.
+                Con los años de experiencia hemos descubierto las frustraciones que tienen que
+                experimentar los clientes cuando recurren a este servicio encontrándose con sorpresas
+                que hemos eliminado por completo con nuestro servicio a domicilio para entrega
+                inmediata; un servicio que hará más fácil la vida de nuestros clientes.</p>
+        </section>
+
+        <section class="card" id="beneficios">
+            <h2>Beneficios y Ventajas</h2>
+            <ul>
+                <li>Ajuste personalizado a tu cuerpo.</li>
+                <li>Uso de materiales de alta calidad.</li>
+                <li>Asesoramiento profesional en estilo y moda.</li>
+                <li>Servicios rápidos y eficientes.</li>
+            </ul>
+        </section>
+
+        <section class="card" id="galeria">
+            <h2>Galería</h2>
+        </section>
+
+        <section class="card" id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100034214540986">Facebook</a></li>
+                <li><a href="https://www.instagram.com/estefanigonzalez1701/">Instagram</a></li>
+            </ul>
+            <p>o escríbenos por whatsapp al:</p>
+            <ul>
+                <li><a href="https://wa.me/584245811939">04245811939</a></li>
+            </ul>
+        </section>
+
+        <section class="card" id="formulario">
+            <h2>Danos tu opinión</h2>
+            <form action="/send" method="post">
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Comentario</label>
+                    <textarea id="comentario" name="comentario" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sastrería y Arreglo de Ropa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
